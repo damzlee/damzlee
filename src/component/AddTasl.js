@@ -1,6 +1,6 @@
 import { useState} from  'react' 
 
-const AddTasl = (onAdd) => {
+const AddTasl = ({onAdd}) => {
        const [text, setText] = useState('')
        const [day, setDate] = useState('')
        const [reminder, setReminder] = useState(false)
