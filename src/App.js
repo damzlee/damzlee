@@ -39,7 +39,7 @@ setTasks([...tasks, newTask])
 
  // Toogle remainder 
  const toogleReminder = (id) =>{
-setTasks(tasks.map((task)=> task.id == id ? 
+setTasks(tasks.map((task)=> task.id === id ? 
 {...task,reminder:!task.reminder}:task))
  }
   return (
